@@ -1,4 +1,3 @@
-//Te puteogit
 dialogLines = [
 	{
 		keywords: /años|(tu edad)|(how old)/i,
