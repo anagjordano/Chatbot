@@ -1,3 +1,4 @@
+//Te puteogit
 dialogLines = [
 	{
 		keywords: /años|(tu edad)|(how old)/i,
@@ -37,7 +38,7 @@ dialogLines = [
 		action: function() {replaceImage(2)},
 	},
 	{
-		keywords: /smoke|fumar|porro|joint|pipa|pipe|smoking|fumeteo|marijuana|marihuana|yerba|weed|hierba|pingoneo/i,
+		keywords: /smoke|fumar|porro|joint|pipa|pipe|smoking|fumeteo|marijuana|marihuana|yerba|weed|hierba|pingoneo|puff|puffs|cachondeo|party|enjoy/i,
 		line: "Of course, who wouldn't start such a big quest without some fueling puffs. You read my mind",
 		action: function() {smokeJoint()},
 	},
