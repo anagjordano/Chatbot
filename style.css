@@ -1,0 +1,48 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#chatboxdiv {
+	position: absolute;
+	top: 400px;
+	right: 200px;
+	transform: translate(45%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	overflow: auto;
+	background-color: white;
+	width: 400px;
+	height: 400px;
+	box-shadow: 10px 10px 10px 2px rgb(221, 215, 215);
+}
+
+#inputdiv {
+	position: absolute;
+	bottom: 80px;
+	left: 40px;
+}
+
+#input {
+	width:130%;
+	box-shadow: 5px 5px 5px grey;
+	height: 25px;
+}
+
+#dialog-text {
+	width: 90%;
+	height: 300px;
+	padding: 10px;
+	color: #8B0000;
+	text-shadow: 2px 2px 8px #FF0000;
+	font-size: 25px;
+	font-weight: bold;
+	overflow: auto;
+	margin-top: 20px;
+	margin-left: 10px;
+}
+
+button{
+	box-shadow: 5px 5px 5px grey;
+	padding: 5px;
+	margin-top: 10px;
+}

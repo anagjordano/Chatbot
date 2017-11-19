@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css"> 
+		<meta charset="utf-8">
+		<title> Gandalf </title>
+	</head>
+	<body>
+
+	<div id="chatboxdiv">
+		<p id="dialog-text">
+		<span id="hook-scroll"> </span>
+		</p>
+		<div id="inputdiv"> 
+			<form onsubmit="return handleOnSubmit()">
+				<input id="input" type="text" name="" value="" autofocus placeholder="Say something..." >
+			<!-- <input id="button" type="button" name="" value="Submit" onclick="showAge();reply();"> -->
+				<button type="submit">Submit</button>
+			</form>
+		</div> 
+	</div>
+
+	<div id="images">
+	<img id="gandalf" src="gandalf.jpg" alt="Gandalf">
+	</div>
+	
+	<!-- SCRIPTS -->
+	<script src="chatbot.js"></script>
+	</body>
+</html>
